@@ -82,25 +82,47 @@ export default function Cover() {
 
         <motion.div
           {...animProps(0.85)}
-          className="flex items-end justify-between border-t border-text/15 pt-[3vh]"
+          className="space-y-[2vh]"
         >
-          <div>
-            <div className="font-mono text-[1.3vw] tracking-widest uppercase text-muted mb-[1vh]">
-              Réalisé par
+          <div className="border-t border-text/15 pt-[3vh]">
+            <div className="font-mono text-[1vw] tracking-widest uppercase text-accent-2 mb-[1.5vh]">
+              ✓ Mises à Jour Récentes
             </div>
-            <div className="font-display text-[2vw] font-medium leading-tight">
-              BOUKHANA Yassamine · CHATTOUF Israe · AHADJI Abderrahim
+            <div className="grid grid-cols-2 gap-[2vw] text-[1.2vw] text-muted leading-relaxed">
+              <div>
+                <span className="text-primary">→</span> Configuration TypeScript & .gitignore
+              </div>
+              <div>
+                <span className="text-accent">→</span> Workflow GitHub Actions
+              </div>
+              <div>
+                <span className="text-primary">→</span> Asset Paths & SPA Fallback
+              </div>
+              <div>
+                <span className="text-accent">→</span> Icônes Visuelles aux Cartes
+              </div>
             </div>
           </div>
-          <div className="text-right">
-            <div className="font-mono text-[1.3vw] tracking-widest uppercase text-muted mb-[1vh]">
-              Encadré par
+
+          <div className="flex items-end justify-between border-t border-text/15 pt-[2vh]">
+            <div>
+              <div className="font-mono text-[1.3vw] tracking-widest uppercase text-muted mb-[1vh]">
+                Réalisé par
+              </div>
+              <div className="font-display text-[2vw] font-medium leading-tight">
+                BOUKHANA Yassamine · CHATTOUF Israe · AHADJI Abderrahim
+              </div>
             </div>
-            <div className="font-display text-[2vw] font-medium">
-              EL HASSANE LAAJI
-            </div>
-            <div className="font-mono text-[1.3vw] text-primary mt-[1vh]">
-             Année de formation  2025 — 2026
+            <div className="text-right">
+              <div className="font-mono text-[1.3vw] tracking-widest uppercase text-muted mb-[1vh]">
+                Encadré par
+              </div>
+              <div className="font-display text-[2vw] font-medium">
+                EL HASSANE LAAJI
+              </div>
+              <div className="font-mono text-[1.3vw] text-primary mt-[1vh]">
+               Année de formation  2025 — 2026
+              </div>
             </div>
           </div>
         </motion.div>
