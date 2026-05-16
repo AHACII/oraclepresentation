@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import { SlideShell } from "@/components/SlideShell";
 import { animProps, animScale } from "@/lib/anim";
 
+const base = import.meta.env.BASE_URL;
+
 export default function Difficulties() {
   return (
     <SlideShell chapter="" number="09 / 10">
@@ -44,8 +46,15 @@ export default function Difficulties() {
             {...animScale(0.3)}
             className="rounded-[1vw] bg-surface/70 border border-text/10 p-[1.6vw] flex flex-col justify-between"
           >
-            <div className="font-mono text-[1.2vw] text-primary tracking-widest">
-              01
+            <div className="flex flex-col gap-[1.5vh]">
+              <img
+                src={`${base}card-arcore.svg`}
+                alt="Configuration ARCore"
+                className="w-[5vw] h-[5vw] rounded-[1.4vw] bg-primary/10 border border-primary/20 p-[0.8vw]"
+              />
+              <div className="font-mono text-[1.2vw] text-primary tracking-widest">
+                01
+              </div>
             </div>
             <div>
               <div className="font-display font-semibold text-[1.9vw] leading-tight">
@@ -62,8 +71,15 @@ export default function Difficulties() {
             {...animScale(0.4)}
             className="rounded-[1vw] bg-surface/70 border border-text/10 p-[1.6vw] flex flex-col justify-between"
           >
-            <div className="font-mono text-[1.2vw] text-accent tracking-widest">
-              02
+            <div className="flex flex-col gap-[1.5vh]">
+              <img
+                src={`${base}card-android-compat.svg`}
+                alt="Compatibilité Android"
+                className="w-[5vw] h-[5vw] rounded-[1.4vw] bg-accent/10 border border-accent/20 p-[0.8vw]"
+              />
+              <div className="font-mono text-[1.2vw] text-accent tracking-widest">
+                02
+              </div>
             </div>
             <div>
               <div className="font-display font-semibold text-[1.9vw] leading-tight">
@@ -75,15 +91,20 @@ export default function Difficulties() {
             </div>
           </motion.div>
 
-          {/* 03 (removed) */}
-
-          {/* 04 */}
+          {/* 03 */}
           <motion.div
             {...animScale(0.6)}
             className="rounded-[1vw] bg-surface/70 border border-text/10 p-[1.6vw] flex flex-col justify-between"
           >
-            <div className="font-mono text-[1.2vw] text-primary tracking-widest">
-              03
+            <div className="flex flex-col gap-[1.5vh]">
+              <img
+                src={`${base}card-gradle.svg`}
+                alt="Dépendances Gradle"
+                className="w-[5vw] h-[5vw] rounded-[1.4vw] bg-primary/10 border border-primary/20 p-[0.8vw]"
+              />
+              <div className="font-mono text-[1.2vw] text-primary tracking-widest">
+                03
+              </div>
             </div>
             <div>
               <div className="font-display font-semibold text-[1.9vw] leading-tight">
@@ -95,13 +116,20 @@ export default function Difficulties() {
             </div>
           </motion.div>
 
-          {/* 05 */}
+          {/* 04 */}
           <motion.div
             {...animScale(0.7)}
             className="rounded-[1vw] bg-surface/70 border border-text/10 p-[1.6vw] flex flex-col justify-between"
           >
-            <div className="font-mono text-[1.2vw] text-accent tracking-widest">
-              04
+            <div className="flex flex-col gap-[1.5vh]">
+              <img
+                src={`${base}card-android-spring.svg`}
+                alt="Communication Android Spring"
+                className="w-[5vw] h-[5vw] rounded-[1.4vw] bg-accent/10 border border-accent/20 p-[0.8vw]"
+              />
+              <div className="font-mono text-[1.2vw] text-accent tracking-widest">
+                04
+              </div>
             </div>
             <div>
               <div className="font-display font-semibold text-[1.9vw] leading-tight">

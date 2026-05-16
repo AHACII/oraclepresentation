@@ -1,0 +1,7 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="180" height="180" rx="30" fill="#F59E0B" opacity="0.16"/>
+  <path d="M56 64H144C148.418 64 152 67.5817 152 72V128C152 132.418 148.418 136 144 136H56C51.5817 136 48 132.418 48 128V72C48 67.5817 51.5817 64 56 64Z" stroke="#F59E0B" stroke-width="12"/>
+  <path d="M72 88L98 112L128 84" stroke="#F59E0B" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M80 76H120" stroke="#F59E0B" stroke-width="10" stroke-linecap="round"/>
+  <text x="100" y="178" text-anchor="middle" fill="#0F172A" font-size="22" font-family="Inter, sans-serif">Gradle</text>
+</svg>
