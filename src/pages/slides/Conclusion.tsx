@@ -115,9 +115,6 @@ export default function Conclusion() {
           {...animProps(1.0)}
           className="text-center"
         >
-          <div className="font-display text-[2vw] text-text/70 italic">
-            Merci pour votre attention.
-          </div>
         </motion.div>
       </div>
     </div>
